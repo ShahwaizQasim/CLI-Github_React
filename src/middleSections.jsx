@@ -1,6 +1,8 @@
-import { useEffect } from "react"
-import Aos from "aos"
-import "aos/dist/aos.css"
+import { useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircle, faPause } from "@fortawesome/free-solid-svg-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function MiddleSections() {
   useEffect(() => {
@@ -35,11 +37,11 @@ function MiddleSections() {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <i class="fa-solid fa-circle circle1"></i>
-              <i class="fa-solid fa-circle circle2"></i>
-              <i class="fa-solid fa-circle circle3"></i>
+              <FontAwesomeIcon icon={faCircle} className="circle1" />
+              <FontAwesomeIcon icon={faCircle} className="circle2" />
+              <FontAwesomeIcon icon={faCircle} className="circle3" />
               <div class="section2-pause">
-                <i class="fa-solid fa-pause pause"></i>
+                <FontAwesomeIcon icon={faPause} />
               </div>
               <p>$ issue list</p>
               <span>Showing 4 of 4 issues in cli/cli</span>

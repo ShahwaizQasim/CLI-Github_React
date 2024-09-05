@@ -1,3 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faFacebook,
+  faYoutube,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
 function Footer() {
   return (
     <>
@@ -108,19 +117,19 @@ function Footer() {
           <div class="footer-nav-box2">
             <ul>
               <li>
-                <i class="fa-brands fa-twitter"></i>
+                <FontAwesomeIcon icon={faTwitter} />
               </li>
               <li>
-                <i class="fa-brands fa-facebook"></i>
+                <FontAwesomeIcon icon={faFacebook} />
               </li>
               <li>
-                <i class="fa-brands fa-youtube"></i>
+                <FontAwesomeIcon icon={faYoutube} />
               </li>
               <li>
-                <i class="fa-brands fa-linkedin"></i>
+                <FontAwesomeIcon icon={faLinkedin} />
               </li>
               <li>
-                <i class="fa-brands fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} />
               </li>
             </ul>
           </div>
